@@ -279,7 +279,7 @@
 <p>Make sure to replace <code>region</code>,<code>yourapplicationid</code>, <code>yourclientsecret</code> and <code>userid</code> with your details.</p>
 </blockquote>
 
-<p>Initialization API allows you to initialize with the Engage sdk. You can register your application with your application instance, region, application id, client secret and user id.</p>
+<p>Initialization API allows you to initialize with the Engage sdk. You can register your application with your application instance, region, application id, client secret and user id. This API must be invoked as the first call in your application.</p>
 <h1 id='sendmetrics'>sendMetrics</h1>
 <p>Invoke this api to send the metric code to the engage server</p>
 <pre class="highlight java tab-java"><code>   <span class="n">EngageClient</span><span class="o">.</span><span class="na">getInstance</span><span class="o">().</span><span class="na">sendMetrics</span><span class="o">(</span><span class="s">"yourmetriccode"</span><span class="o">);</span>
