@@ -43,7 +43,7 @@ We have language bindings in Android and iOS! You can view code examples in the 
 
 > Make sure to replace `region`,`yourapplicationid`, `yourclientsecret` and `userid` with your details.
 
-Initialization API allows you to initialize with the Engage sdk. You can register your application with your application instance, region, application id, client secret and user id.
+Initialization API allows you to initialize with the Engage sdk. You can register your application with your application instance, region, application id, client secret and user id. This API must be invoked as the first call in your application.
 
 # sendMetrics
 
